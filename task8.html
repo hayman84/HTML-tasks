@@ -1,0 +1,88 @@
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="width=device-width, initial-scale=1.0">
+        <title>task8</title>
+    
+    </head>
+    <body>
+        <h2>Task 8</h2>
+        <form action="a.html" method="POST" >
+
+            <div class="input">
+                <label for="userId">User_ID: </label><br>
+                <input type="text" id="userId" placeholder="The maxlength 5 numbers" name="ID" maxlength = "5">
+                <hr>
+
+                <label for="username">UserName: </label><br>
+                <input type="text" id="username" placeholder="Enter UserName" name="username" required>
+                <hr>
+
+                <label for="pws">Password: </label><br>
+                <input type="password" id="password" placeholder="Enter Password" name="password">
+                <hr>
+
+                <label for="Mobile">Mobile: </label><br>
+                <input type="tel" id="Mobile" placeholder="+964 770 111 1111" name="Mobile">
+                <hr>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="Email address">
+                <hr>
+
+                <label for="sub">Subject: </label><br>
+                <input type="text" id="sub" value="HTML" name="subj" readonly>
+                <hr>
+               
+                <input type="hidden" id="hideId" name="hideId" value="123">
+
+                <!-- checkBox -->
+                <label for="">languages</label><br>
+                <input type="checkbox" id="subject1" name="subject1" value="HTML">
+                <label for="subject1"> HTML </label><br>
+                <input type="checkbox" id="subject2" name="subject2" value="CSS">
+                <label for="subject2"> CSS </label><br>
+                <input type="checkbox" id="subject3" name="subject3" value="JAVASCRIPT">
+                <label for="subject3"> JAVASCRIPT </label><br>
+                <hr>
+
+                <!-- RaidoButtons -->
+                <label for="">Choose OS system</label><br>
+                <input type="radio" id="Windows" name="OS" value="Windows">
+                <label for="Windows">Windows 10</label><br>
+                <input type="radio" id="Linux" name="OS" value="Linux">
+                <label for="Linux">Linux</label><br>
+                <input type="radio" id="macOS" name="OS" value="macOS">
+                <label for="macOS">macOS</label><br>
+                <hr>
+
+                <input type="submit" id="submit" value="Send">
+            </div>
+
+            
+        </form>
+
+        <!-- 
+            
+	
+Checkboxes and Radio Buttons
+Checkboxes and radio buttons are elements for making selections. 
+Checkboxes allow the user to choose items from a fixed number of alternatives, 
+while radio buttons allow the user to choose exactly one item from a list of several predefined alternatives.
+
+Checkboxes
+Checkboxes are used to choose as many options as desired at a time from a limited number of options.
+You can select none, one, or as many options as desired in a group of checkboxes.
+There may also be only one checkbox.
+Choose a name that explicitly distinguishes two different states or contrasts.
+Radio Buttons
+Radio buttons are used to choose one option at a time from a limited number of options.
+Arrange radio buttons in groups (you define graphical groups in the Screen Painter). Put at least two radio buttons in one group.
+One radio button in a group must always be selected.
+If the user should have the chance to choose no item from the offered options, 
+create a separate radio button with a "No selection" label or similar text that turns off the other contents-related options
+Reference: https://experience.sap.com/files/guidelines/MiniSG/2_Layout/2_Checkboxes.htm
+        -->
+ </body>
+</html>
